@@ -49,7 +49,7 @@ public class ThreadMaxMinNum implements Runnable{
 
             //результат умножить друг на друга
             int multiply = min * max;
-            System.out.println("multiply: " + multiply);
+            System.out.println("multiply to update: " + multiply);
 
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
